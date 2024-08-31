@@ -129,7 +129,9 @@ For a complete list of dependencies, please refer to the `requirements.txt` file
 
 ## Citation
 
-If you use Nmix in your research, please cite our paper: [paper citation to be added]
+If you use Nmix in your research, please cite our paper: 
+
+Geng Y, Lai F, Luo H*, Gao F*. Nmix: A hybrid deep learning model for precise prediction of 2'-O-methylation sites based on multi-feature fusion and ensemble learning. 2024. Submitted.
 
 ## Contact
 
