@@ -1,6 +1,4 @@
-# Nmix
-
-Nmix is a hybrid deep learning model for precise prediction of 2'-O-methylation sites based on multi-feature fusion and ensemble learning.
+![logo](.\logo.webp)
 
 ## Table of Contents
 
