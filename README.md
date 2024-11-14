@@ -9,7 +9,6 @@
 # Table of Contents
 
 - [Introduction](#Introduction)
-
 - [Local Prediction Guide](#Local-Prediction-Guide)
    1. [Installation](#installation)
    2. [Usage](#usage)
@@ -18,8 +17,6 @@
    3. [Input Format](#input-format)
    4. [Output Format](#output-format)
    5. [Example](#example)
-   6. [Key Dependencies](#key-dependencies)
-
 - [Dataset Guide](#Dataset-Guide)
    1. [Directory Structure](#Directory-Structure)
    2. [File Format](#File-Format)
