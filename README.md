@@ -4,8 +4,6 @@
 
 ---
 
-![overview](./overview.jpg)
-
 # Table of Contents
 
 - [Introduction](#Introduction)
@@ -30,6 +28,10 @@
 This study introduces Nmix, an advanced computational tool for precise prediction of Nm sites in human RNA. We constructed the largest, low-redundancy dataset of experimentally verified Nm sites and employed an innovative multi-feature fusion approach, combining one-hot, Z-curve and RNA secondary structure (RSS) encoding. Nmix utilizes a meticulously designed hybrid deep learning architecture, integrating 1D/2D convolutional neural networks (CNNs), self-attention mechanism and residual connection. We implemented asymmetric loss function and Bayesian optimization-based ensemble learning, substantially improving predictive performance on imbalanced datasets. Rigorous testing on two benchmark datasets revealed that Nmix significantly outperforms existing state-of-the-art (SOTA) methods across various metrics, particularly in PRE, with average improvements of 33.1% and 60.0%, and Matthews correlation coefficient (MCC), with average improvements of 24.7% and 51.1%. Notably, Nmix demonstrated exceptional cross-species generalization capability, accurately predicting 93.8% of experimentally verified Nm sites in rat RNA.
 
 We hope that by providing a more accurate and robust tool for Nm site prediction, we can contribute to advancing our understanding of Nm mechanisms and the prediction research on other biologically critical sites.
+
+![overview](./overview.jpg)
+
+---
 
 # Nmix Local Prediction Guide
 
