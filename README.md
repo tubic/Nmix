@@ -153,7 +153,7 @@ Each CSV file contains 7 columns:
 
 If you use Nmix or our proposed datasets in your research, please consider citing our paper: 
 
-> Geng Y, Lai F, Luo H*, Gao F*. Nmix: A hybrid deep learning model for precise prediction of 2'-O-methylation sites based on multi-feature fusion and ensemble learning. 2024.
+> Geng, Y.-Q., Lai, F.-L., Luo, H., & Gao, F. (2024). Nmix: A hybrid deep learning model for precise prediction of 2’-O-methylation sites based on multi-feature fusion and ensemble learning. *Briefings in Bioinformatics*, 25(6), bbae601. https://doi.org/10.1093/bib/bbae601
 
 # Contact
 
