@@ -156,7 +156,7 @@ To enhance the transparency of our research, we provide two scripts—`specific_
 
 - Testing Nmix-Specific
 
-You can use the following commands to test Nmix-Specific for each nucleotide:
+You can use the following commands to test Nmix-Specific for each subset:
 
 ```bash
 python test.py -i ./dataset/A/test.csv -o ./specific_test_A.csv
@@ -167,7 +167,7 @@ python test.py -i ./dataset/U/test.csv -o ./specific_test_U.csv
 
 - Testing Nmix-Generic
 
-You can use the following commands to test Nmix-Generic for each nucleotide:
+You can use the following commands to test Nmix-Generic for each subset:
 
 ```bash
 python test.py -i ./dataset/A/test.csv -o ./generic_test_A.csv
