@@ -18,6 +18,7 @@
 - [Dataset Guide](#Dataset-Guide)
    1. [Directory Structure](#Directory-Structure)
    2. [File Format](#File-Format)
+- [Testing Nmix](#Testing-Nmix)
 - [Citation](#citation)
 - [Contact](#contact)
 
@@ -148,6 +149,34 @@ Each CSV file contains 7 columns:
 - **seq**: 41-nucleotide RNA sequence centered at the modification site
 - **label**: Binary label indicating the presence (1) or absence (0) of Nm modification
 - **structure**: Secondary structure of the RNA sequence in dot-bracket notation, where dots represent unpaired nucleotides and brackets represent base-paired nucleotides
+
+# Testing Nmix
+
+To enhance the transparency of our research, we provide two scripts—`specific_test.py` and `generic_test.py`—which allow for easy evaluation of the performance of Nmix-Specific and Nmix-Generic on the test datasets.
+
+- Testing Nmix-Specific
+
+You can use the following commands to test Nmix-Specific for each nucleotide:
+
+```bash
+python test.py -i ./dataset/A/test.csv -o ./specific_test_A.csv
+python test.py -i ./dataset/C/test.csv -o ./specific_test_C.csv
+python test.py -i ./dataset/G/test.csv -o ./specific_test_G.csv
+python test.py -i ./dataset/U/test.csv -o ./specific_test_U.csv
+```
+
+- Testing Nmix-Generic
+
+You can use the following commands to test Nmix-Generic for each nucleotide:
+
+```bash
+python test.py -i ./dataset/A/test.csv -o ./generic_test_A.csv
+python test.py -i ./dataset/C/test.csv -o ./generic_test_C.csv
+python test.py -i ./dataset/G/test.csv -o ./generic_test_G.csv
+python test.py -i ./dataset/U/test.csv -o ./generic_test_U.csv
+```
+
+These commands will test the performance of Nmix-Specific and Nmix-Generic, outputting the predictions and performance metrics for each nucleotide.
 
 # Citation
 
