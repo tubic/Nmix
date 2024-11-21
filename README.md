@@ -176,7 +176,7 @@ python test.py -i ./dataset/G/test.csv -o ./generic_test_G.csv
 python test.py -i ./dataset/U/test.csv -o ./generic_test_U.csv
 ```
 
-These commands will test the performance of Nmix-Specific and Nmix-Generic, outputting the predictions and performance metrics for each nucleotide.
+These commands will test the performance of Nmix-Specific and Nmix-Generic, outputting the predictions and performance metrics for each subset.
 
 # Citation
 
